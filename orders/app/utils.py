@@ -2,7 +2,10 @@ from fastapi import HTTPException
 from fastapi.security import HTTPBearer
 from jose import jwt, JWTError
 
-with open("../jwt_auth/public_key.pem", "r") as f:
+import os
+print(os.listdir())
+
+with open("public_key.pem", "r") as f:
     PUBLIC_KEY_AUTH = f.read()
 
 auth = HTTPBearer()

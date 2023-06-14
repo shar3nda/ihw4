@@ -4,5 +4,5 @@ sqlalchemy
 pydantic[email]
 bcrypt
 python-jose[pycryptodome]
-psycopg
+psycopg[binary]
 python-multipart

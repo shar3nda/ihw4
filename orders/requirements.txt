@@ -3,4 +3,5 @@ uvicorn
 sqlalchemy
 requests
 pydantic
-psycopg
+psycopg[binary]
+python-jose[pycryptodome]
